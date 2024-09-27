@@ -271,6 +271,9 @@ elif board_id == ap_board.ONION_OMEGA2:
 
 elif board_id == ap_board.RADXA_CM3:
     from adafruit_blinka.board.radxa.radxacm3 import *
+    
+elif board_id == ap_board.RADXA_CM5:
+    from adafruit_blinka.board.radxa.radxacm5 import *
 
 elif board_id == ap_board.ROCK_PI_3A:
     from adafruit_blinka.board.radxa.rockpi3a import *
